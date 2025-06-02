@@ -1,0 +1,32 @@
+[project]
+title = "Preswald Project"
+version = "0.1.0"
+port = 8501
+slug = "{project_slug}"
+entrypoint = "hello.py"
+
+[branding]
+name = "Personality Insight App"
+favicon = "images/favicon.ico"              
+logo = "images/logo.png"                    
+primaryColor = "#2C3E50"                    
+backgroundColor = "#F4F6F8"                 
+accentColor = "#1ABC9C"                     
+
+
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[data.my_dataset]
+type = "csv"
+path = "data/personality_dataset.csv"  # <-- add 'data/' here
+
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+
+//Test
